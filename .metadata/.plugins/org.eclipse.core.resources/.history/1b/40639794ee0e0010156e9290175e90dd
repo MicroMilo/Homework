@@ -1,0 +1,71 @@
+As a Member, I want to book fitness courses, so that I can attend scheduled sessions  
+{  
+Basic Flow {  
+    (User) 1. the Member shall request to check all available courses.//function
+    (System) 2. system shall display available.//function  
+    (User) 3. the Member shall confirm specific to booking.//function
+    (System) 4. system shall confirm there are slots.//function  
+    (User) 5. the Member shall scan code to pay fee.//function
+    (System) 6. system shall confirm bookking is finished.//function  
+}  
+Alternative Flow {  
+    A. At any time, no slots are available :  
+        1. system notify Class Full and suggest alternative sessions.
+}  
+}  
+
+As a Member, I want to cancel a booking, so that I can free up my schedule  
+{  
+Basic Flow {  
+    (User) 1. the Member shall check all booked courses.//function  
+    (System) 2. system shall remove reservation and notify Trainer.//function  
+    (User) 3. the Member shall request to refund charge.//function  
+    (System) 4. system shall recharge money to member.//function  
+}  
+Alternative Flow {  
+    A. At any time, cancellation is within twenty four hours of class start :
+        1. system refuse to recharge money.
+}  
+}  
+
+ 
+
+As a Front Desk, I want to register new members, so that they access gym facilities  
+{  
+Basic Flow {  
+    (User) 1. the Front Desk shall input member details.//function  
+    (System) 2. system shall generate membership ID.//function  
+}  
+} 
+
+As a Front Desk, I want to register new trainers, so that they publish activities  
+{  
+Basic Flow {  
+    (User) 1. the Front Desk shall input member details.//function  
+    (System) 2. system shall generate membership ID.//function  
+}  
+}
+
+As a Trainer, I want to update class schedules, so that members see latest availability  
+{  
+Basic Flow {  
+    (User) 1. the Trainer shall modify class time.//function  
+    (System) 2. system shall update schedule and notify members.//function  
+}  
+} 
+
+As a Member, I want to view attendance history, so that I track progress  
+{  
+Basic Flow {  
+    (User) 1. the Member shall log into account.//function  
+    (System) 2. system shall display attended classes.//function  
+}  
+}  
+
+As a Trainer, I want to view class attendance, so that I adjust session difficulty  
+{  
+Basic Flow {  
+    (User) 1. the Trainer shall select class.//function  
+    (System) 2. system shall display participant names.//function  
+}  
+}  
