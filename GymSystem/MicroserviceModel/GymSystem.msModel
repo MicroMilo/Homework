@@ -1,0 +1,205 @@
+MicroServiceModel GymSystem {
+	MicroService MemberService {
+		ProvidedInterface cancel_book_Course{
+			[Operation]
+			cancel_book_Course
+		}
+		ProvidedInterface book_Course{
+			[Operation]
+			book_Course
+			listAllCourseBooked
+			confirmCancelBook
+			requestRefund
+			CallChain listAllCourseBooked {
+				service FrontDeskService : FrontDeskService {
+					Message 1 {
+						operation manageMember
+					}
+				}
+			}
+			CallChain confirmCancelBook {
+				service FrontDeskService : FrontDeskService {
+					Message 1 to TrainerService {
+						operation manageMember
+					}
+				}
+				service TrainerService : TrainerService {
+					Message 2 to TrainerService {
+						operation manageCourse
+					}
+				}
+				service TrainerService : TrainerService {
+					Message 3 {
+						operation manageCourseRecord
+					}
+				}
+			}
+			CallChain requestRefund {
+				service FrontDeskService : FrontDeskService {
+					Message 1 to TrainerService {
+						operation manageMember
+					}
+				}
+				service TrainerService : TrainerService {
+					Message 2 to TrainerService {
+						operation manageCourse
+					}
+				}
+				service TrainerService : TrainerService {
+					Message 3 {
+						operation manageCoursePayment
+					}
+				}
+			}
+		}
+		ProvidedInterface login{
+			[Operation]
+			login
+		}
+		RequiredInterface manageMember
+		RequiredInterface manageCourse
+		RequiredInterface manageCourseRecord
+		RequiredInterface manageCoursePayment
+		DomainModel MemberService {
+			 Entity CourseRecord {
+				Id : String
+				UserId : String
+				CourseId : String
+				Status : Integer
+				[Refer]
+			}
+		}
+	}
+	MicroService TrainerService {
+		ProvidedInterface finish_Course{
+			[Operation]
+			finish_Course
+		}
+		ProvidedInterface create_Course{
+			[Operation]
+			create_Course
+		}
+		ProvidedInterface update_schedule{
+			[Operation]
+			update_schedule
+		}
+		ProvidedInterface manageCourse{
+			[Operation]
+			createCourse
+			queryCourse
+			updateCourse
+			modifyCourse
+		}
+		ProvidedInterface manageCourseNotification{
+			[Operation]
+			createCourseNotification
+			queryCourseNotification
+			updateCourseNotification
+			modifyCourseNotification
+		}
+		ProvidedInterface manageCourseRecord{
+			[Operation]
+			createCourseRecord
+			queryCourseRecord
+			updateCourseRecord
+			modifyCourseRecord
+		}
+		ProvidedInterface manageCoursePayment{
+			[Operation]
+			createCoursePayment
+			queryCoursePayment
+			updateCoursePayment
+			modifyCoursePayment
+		}
+		RequiredInterface manageMember
+		DomainModel TrainerService {
+			 Entity CourseNotification {
+				Id : String
+				UserId : String
+				Message : String
+				[Refer]
+			}
+			 Entity Course {
+				Id : String
+				Name : String
+				TrainerId : String
+				Description : String
+				RegisterStartTime : String
+				RegisterEndTime : String
+				EventStartTime : String
+				EventEndTime : String
+				Cost : Real
+				RoomId : String
+				Capacity : Integer
+				Status : Integer
+				[Refer]
+				CoursetoCourseRoom : CourseRoom  Association
+				CoursetoCourseNotification : CourseNotification  Association
+				CoursetoCoursePayment : CoursePayment  Association
+				CoursetoCourseRecord : CourseRecord  Association
+			}
+			 Entity CoursePayment {
+				Id : String
+				UserId : String
+				CourseId : String
+				Price : Real
+				PayTime : String
+				PayStatus : Integer
+				[Refer]
+			}
+			 Entity CourseRoom {
+				Id : String
+				Location : String
+				Capacity : Integer
+				[Refer]
+			}
+			 Entity CourseRecord {
+				Id : String
+				UserId : String
+				CourseId : String
+				Status : Integer
+				[Refer]
+			}
+		}
+	}
+	MicroService FrontDeskService {
+		ProvidedInterface register_member{
+			[Operation]
+			register_member
+		}
+		ProvidedInterface register_trainer{
+			[Operation]
+			register_trainer
+		}
+		ProvidedInterface manageMember{
+			[Operation]
+			createMember
+			queryMember
+			updateMember
+			modifyMember
+		}
+		RequiredInterface manageCourse
+		RequiredInterface manageCourseNotification
+		RequiredInterface manageCourseRecord
+		DomainModel FrontDeskService {
+			 Entity Trainer {
+				Name : String
+				Description : String
+				RegisterTime : String
+				[Refer]
+			}
+			 Entity Member {
+				Name : String
+				Description : String
+				RegisterTime : String
+				[Refer]
+			}
+			 Entity FrontDesk {
+				Id : String
+				Phone : String
+				Password : String
+				[Refer]
+			}
+		}
+	}
+}

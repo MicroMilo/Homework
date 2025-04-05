@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="confirmCourseInfo"/>
 		<item key="wrap" value="false"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="confirmCourseInfo"/>
+			<item value="create"/>
 			<item value=", status"/>
 			<item value="update"/>
 			<item value="confirm"/>
-			<item value="create"/>
 			<item value="set"/>
 			<item value="listcourse"/>
 			<item value="regiter_time"/>
@@ -22,7 +23,6 @@
 			<item value="classschedule"/>
 			<item value="truetruetrueregSchedule"/>
 			<item value="payFee"/>
-			<item value="member_id : String, course_id : String, datetime: String, status: PayStatus[UNPAIED|PAIED|REFUND|COMPLETED]"/>
 		</list>
 		<list key="replacehistory">
 			<item value="mem"/>
@@ -33,8 +33,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="0"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_X_ORIGIN" value="9"/>
+		<item key="DIALOG_Y_ORIGIN" value="351"/>
 		<item key="DIALOG_WIDTH" value="1938"/>
 		<item key="DIALOG_HEIGHT" value="1048"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>

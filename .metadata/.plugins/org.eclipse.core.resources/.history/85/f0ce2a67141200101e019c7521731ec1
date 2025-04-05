@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:msModel="http://www.rm2pt.com/msModel/MsModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_LXW04BIUEfC1RegtS_cWXw" selectedViews="_LZY1MBIUEfC1RegtS_cWXw" version="14.5.1.202106111100">
+    <semanticResources>GymSystem.msModel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_LZY1MBIUEfC1RegtS_cWXw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_LZgJ8BIUEfC1RegtS_cWXw" name="Conceptual Class Diagram" repPath="#_LZeUwBIUEfC1RegtS_cWXw" changeId="c6e83e68-ff69-4e93-8a12-a3a8a3f9458f">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="GymSystem.msModel#//@microservice.0/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_LaVQYBIUEfC1RegtS_cWXw" name="Conceptual Class Diagram" repPath="#_LaUpUBIUEfC1RegtS_cWXw" changeId="95317e3e-b131-41dc-ad8d-fa0d065c4064">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="GymSystem.msModel#//@microservice.1/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_LbTgwhIUEfC1RegtS_cWXw" name="MicroServiceModel" repPath="#_LbTgwBIUEfC1RegtS_cWXw" changeId="06118e13-fb05-4b12-8161-3423c760758f">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']"/>
+        <target xmi:type="msModel:MicroServiceModel" href="GymSystem.msModel#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_LtMiAhIUEfC1RegtS_cWXw" name="MemberServiceDomainModel" repPath="#_LtMiABIUEfC1RegtS_cWXw" changeId="4db0c763-a400-4c23-a8f8-f33bdb50032c">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="GymSystem.msModel#//@microservice.0/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_LZeUwBIUEfC1RegtS_cWXw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LZp68BIUEfC1RegtS_cWXw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_LZp68RIUEfC1RegtS_cWXw" type="Sirius" element="_LZeUwBIUEfC1RegtS_cWXw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_LaIcEBIUEfC1RegtS_cWXw" type="2003" element="_LZ39YBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LaMGcBIUEfC1RegtS_cWXw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_LaNUkBIUEfC1RegtS_cWXw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_LaPJwBIUEfC1RegtS_cWXw" type="3010" element="_LZ-EABIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaPJwRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaPJwhIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LaPw0BIUEfC1RegtS_cWXw" type="3010" element="_LZ_SIBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaPw0RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaPw0hIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LaPw0xIUEfC1RegtS_cWXw" type="3010" element="_LZ_5MBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaPw1BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaPw1RIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LaQX4BIUEfC1RegtS_cWXw" type="3010" element="_LaAgQBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaQX4RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaQX4hIUEfC1RegtS_cWXw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LaNUkRIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LaNUkhIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LaIcERIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LaIcEhIUEfC1RegtS_cWXw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LaNUkxIUEfC1RegtS_cWXw" type="2003" element="_LZ9c8RIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LaN7oBIUEfC1RegtS_cWXw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_LaN7oRIUEfC1RegtS_cWXw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_LaQX4xIUEfC1RegtS_cWXw" type="3010" element="_LaAgQhIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaQX5BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaQX5RIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LaQX5hIUEfC1RegtS_cWXw" type="3010" element="_LaBHURIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaQX5xIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaQX6BIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LaQX6RIUEfC1RegtS_cWXw" type="3010" element="_LaBHUxIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaQX6hIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaQX6xIUEfC1RegtS_cWXw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LaN7ohIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LaN7oxIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LaNUlBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LaNUlRIUEfC1RegtS_cWXw" x="168"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LaN7pBIUEfC1RegtS_cWXw" type="2003" element="_LZ9c9BIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LaN7pxIUEfC1RegtS_cWXw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_LaOisBIUEfC1RegtS_cWXw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_LaQ-8BIUEfC1RegtS_cWXw" type="3010" element="_LaBuYRIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaQ-8RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaQ-8hIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LaQ-8xIUEfC1RegtS_cWXw" type="3010" element="_LaCVcBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaQ-9BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaQ-9RIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LaRmABIUEfC1RegtS_cWXw" type="3010" element="_LaCVchIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaRmARIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaRmAhIUEfC1RegtS_cWXw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LaOisRIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LaOishIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LaN7pRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LaN7phIUEfC1RegtS_cWXw" x="348"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_LZp68hIUEfC1RegtS_cWXw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LaEKoBIUEfC1RegtS_cWXw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_LaEKoRIUEfC1RegtS_cWXw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_LZ39YBIUEfC1RegtS_cWXw" name="CourseRecord" width="10">
+      <target xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LZ5ykBIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LZ-EABIUEfC1RegtS_cWXw" name="Id : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LZ-rEBIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LZ_SIBIUEfC1RegtS_cWXw" name="UserId : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LZ_SIRIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LZ_5MBIUEfC1RegtS_cWXw" name="CourseId : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LZ_5MRIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaAgQBIUEfC1RegtS_cWXw" name="Status : Integer">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.3"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.3"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaAgQRIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_LZ9c8RIUEfC1RegtS_cWXw" name="FrontDesk" width="10">
+      <target xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1"/>
+      <semanticElements xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LZ9c8hIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaAgQhIUEfC1RegtS_cWXw" name="Id : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaBHUBIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaBHURIUEfC1RegtS_cWXw" name="Phone : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaBHUhIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaBHUxIUEfC1RegtS_cWXw" name="Password : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaBuYBIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_LZ9c9BIUEfC1RegtS_cWXw" name="CourseRoom" width="10">
+      <target xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2"/>
+      <semanticElements xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LZ9c9RIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaBuYRIUEfC1RegtS_cWXw" name="Id : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaBuYhIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaCVcBIUEfC1RegtS_cWXw" name="Location : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaCVcRIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaCVchIUEfC1RegtS_cWXw" name="Capacity : Integer">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaCVcxIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_LZe70BIUEfC1RegtS_cWXw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="GymSystem.msModel#//@microservice.0/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_LaUpUBIUEfC1RegtS_cWXw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LaVQYhIUEfC1RegtS_cWXw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_LaVQYxIUEfC1RegtS_cWXw" type="Sirius" element="_LaUpUBIUEfC1RegtS_cWXw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_LaY6wBIUEfC1RegtS_cWXw" type="2003" element="_LaV3cBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LaY6wxIUEfC1RegtS_cWXw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_LaZh0BIUEfC1RegtS_cWXw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_LaZh0xIUEfC1RegtS_cWXw" type="3010" element="_LaXFkBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaZh1BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaZh1RIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LaZh1hIUEfC1RegtS_cWXw" type="3010" element="_LaXsoBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LaZh1xIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LaZh2BIUEfC1RegtS_cWXw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LaZh0RIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LaZh0hIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LaY6wRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LaY6whIUEfC1RegtS_cWXw" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_LaVQZBIUEfC1RegtS_cWXw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LaYTsBIUEfC1RegtS_cWXw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_LaYTsRIUEfC1RegtS_cWXw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_LaV3cBIUEfC1RegtS_cWXw" name="CourseNotification" width="10">
+      <target xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.1/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.1/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LaV3cRIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaXFkBIUEfC1RegtS_cWXw" name="Id : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaXFkRIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LaXsoBIUEfC1RegtS_cWXw" name="UserId : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LaXsoRIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_LaUpURIUEfC1RegtS_cWXw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="GymSystem.msModel#//@microservice.1/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_LbTgwBIUEfC1RegtS_cWXw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LbUH0BIUEfC1RegtS_cWXw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_LbUH0RIUEfC1RegtS_cWXw" type="Sirius" element="_LbTgwBIUEfC1RegtS_cWXw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Lbz3EBIUEfC1RegtS_cWXw" type="2001" element="_LbXyMBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb0eIBIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb0eIRIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcgaoBIUEfC1RegtS_cWXw" type="3004" element="_LbZAUBIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LcgaoRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcgaohIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lbz3ERIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lbz3EhIUEfC1RegtS_cWXw" x="4" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb6kwBIUEfC1RegtS_cWXw" type="2001" element="_LbZnYRIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb6kwxIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb6kxBIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcgaoxIUEfC1RegtS_cWXw" type="3004" element="_LbZnYhIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LcgapBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcgapRIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb6kwRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb6kwhIUEfC1RegtS_cWXw" x="83" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb7L0BIUEfC1RegtS_cWXw" type="2001" element="_LbaOcRIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb7L0xIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb7L1BIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LchBsBIUEfC1RegtS_cWXw" type="3004" element="_LbaOchIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LchBsRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LchBshIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb7L0RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb7L0hIUEfC1RegtS_cWXw" x="344" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb7y4BIUEfC1RegtS_cWXw" type="2001" element="_LbaOdBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb7y4xIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb7y5BIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LchBsxIUEfC1RegtS_cWXw" type="3004" element="_LbaOdRIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LchBtBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LchBtRIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb7y4RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb7y4hIUEfC1RegtS_cWXw" x="522" y="48" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb7y5RIUEfC1RegtS_cWXw" type="2001" element="_Lba1gRIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb8Z8BIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb8Z8RIUEfC1RegtS_cWXw" x="21" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LchBthIUEfC1RegtS_cWXw" type="3004" element="_Lba1ghIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LchBtxIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LchBuBIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb7y5hIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb7y5xIUEfC1RegtS_cWXw" x="422" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb8Z8hIUEfC1RegtS_cWXw" type="2001" element="_Lba1hBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb8Z9RIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb8Z9hIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LchowBIUEfC1RegtS_cWXw" type="3004" element="_Lba1hRIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LchowRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LchowhIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb8Z8xIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb8Z9BIUEfC1RegtS_cWXw" x="654" y="29" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb9BABIUEfC1RegtS_cWXw" type="2001" element="_LbbckRIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb9BAxIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb9BBBIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LchowxIUEfC1RegtS_cWXw" type="3004" element="_LbbckhIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LchoxBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LchoxRIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb9BARIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb9BAhIUEfC1RegtS_cWXw" x="1010" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb9oEBIUEfC1RegtS_cWXw" type="2001" element="_LbbclBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb9oExIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb9oFBIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LchoxhIUEfC1RegtS_cWXw" type="3004" element="_LbcDoBIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LchoxxIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LchoyBIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb9oERIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb9oEhIUEfC1RegtS_cWXw" x="1262" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb-PIBIUEfC1RegtS_cWXw" type="2001" element="_LbcDohIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb-2MBIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb-2MRIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LciP0BIUEfC1RegtS_cWXw" type="3004" element="_LbcDoxIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LciP0RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LciP0hIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb-PIRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb-PIhIUEfC1RegtS_cWXw" x="842" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lb-2MhIUEfC1RegtS_cWXw" type="2001" element="_LbcqsRIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lb_dQBIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Lb_dQRIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LciP0xIUEfC1RegtS_cWXw" type="3004" element="_LbcqshIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LciP1BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LciP1RIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lb-2MxIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb-2NBIUEfC1RegtS_cWXw" x="1340" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LcAEUBIUEfC1RegtS_cWXw" type="2001" element="_LbcqtBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcArYBIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_LcArYRIUEfC1RegtS_cWXw" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LciP1hIUEfC1RegtS_cWXw" type="3004" element="_LbcqtRIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LciP1xIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LciP2BIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LcAEURIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcAEUhIUEfC1RegtS_cWXw" x="1094" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LcArYhIUEfC1RegtS_cWXw" type="2001" element="_LbdRwBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcArZRIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_LcArZhIUEfC1RegtS_cWXw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lci24BIUEfC1RegtS_cWXw" type="3005" element="_Lbd40BIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lci24RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lci24hIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LcArYxIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcArZBIUEfC1RegtS_cWXw" x="582" y="78" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LcOGwBIUEfC1RegtS_cWXw" type="2001" element="_Lbd40hIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcOGwxIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_LcOGxBIUEfC1RegtS_cWXw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lci24xIUEfC1RegtS_cWXw" type="3005" element="_Lbd40xIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lci25BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lci25RIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LcOGwRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcOGwhIUEfC1RegtS_cWXw" x="252" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LcRKEBIUEfC1RegtS_cWXw" type="2001" element="_Lbef4RIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcRKExIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_LcRKFBIUEfC1RegtS_cWXw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lcjd8BIUEfC1RegtS_cWXw" type="3005" element="_Lbef4hIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lcjd8RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcjd8hIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LcRKERIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcRKEhIUEfC1RegtS_cWXw" x="162" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LcU0cBIUEfC1RegtS_cWXw" type="2001" element="_Lbef5BIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcU0cxIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_LcU0dBIUEfC1RegtS_cWXw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lcjd8xIUEfC1RegtS_cWXw" type="3005" element="_Lbef5RIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lcjd9BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcjd9RIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LcU0cRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcU0chIUEfC1RegtS_cWXw" x="1170" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LcYe0BIUEfC1RegtS_cWXw" type="2001" element="_LbfG8RIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcZF4BIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_LcZF4RIUEfC1RegtS_cWXw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lcjd9hIUEfC1RegtS_cWXw" type="3005" element="_LbfG8hIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lcjd9xIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcjd-BIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LcYe0RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcYe0hIUEfC1RegtS_cWXw" x="918" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LccJMBIUEfC1RegtS_cWXw" type="2001" element="_LbfG9BIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LccJMxIUEfC1RegtS_cWXw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_LccJNBIUEfC1RegtS_cWXw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LckFABIUEfC1RegtS_cWXw" type="3005" element="_LbfG9RIUEfC1RegtS_cWXw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LckFARIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LckFAhIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LccJMRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LccJMhIUEfC1RegtS_cWXw" x="750" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LcfMgBIUEfC1RegtS_cWXw" type="2002" element="_LbfG9xIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcfMgxIUEfC1RegtS_cWXw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_LcfzkBIUEfC1RegtS_cWXw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LcfzkRIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LcfzkhIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LcfMgRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcfMghIUEfC1RegtS_cWXw" x="228" y="90"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LcfzkxIUEfC1RegtS_cWXw" type="2002" element="_LbfuARIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcfzlhIUEfC1RegtS_cWXw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_LcfzlxIUEfC1RegtS_cWXw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LcfzmBIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LcfzmRIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LcfzlBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcfzlRIUEfC1RegtS_cWXw" x="944" y="90"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_LbUH0hIUEfC1RegtS_cWXw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_Lcl6MBIUEfC1RegtS_cWXw" type="4001" element="_LboQ4BIUEfC1RegtS_cWXw" source="_LcfMgBIUEfC1RegtS_cWXw" target="_Lbz3EBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcmhQBIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcmhQRIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcmhQhIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcmhQxIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcnIUBIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcnIURIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Lcl6MRIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Lcl6MhIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lcl6MxIUEfC1RegtS_cWXw" points="[-1, 0, 293, 60]$[-294, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcrZwBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcrZwRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcsA0BIUEfC1RegtS_cWXw" type="4001" element="_Lbo38hIUEfC1RegtS_cWXw" source="_LcfMgBIUEfC1RegtS_cWXw" target="_Lb6kwBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcsA1BIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcsA1RIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcsA1hIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcsA1xIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcsA2BIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcsA2RIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcsA0RIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcsA0hIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcsA0xIUEfC1RegtS_cWXw" points="[-1, 0, 213, 60]$[-214, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lcsn4BIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lcsn4RIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Lcsn4hIUEfC1RegtS_cWXw" type="4001" element="_Lbo39xIUEfC1RegtS_cWXw" source="_LcfMgBIUEfC1RegtS_cWXw" target="_Lb7L0BIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lcsn5hIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcsn5xIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lcsn6BIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcsn6RIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lcsn6hIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcsn6xIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Lcsn4xIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Lcsn5BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lcsn5RIUEfC1RegtS_cWXw" points="[-1, 0, -47, 60]$[46, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lcsn7BIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lcsn7RIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Lcsn7hIUEfC1RegtS_cWXw" type="4001" element="_LbpfABIUEfC1RegtS_cWXw" source="_LcfMgBIUEfC1RegtS_cWXw" target="_Lb7y4BIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lcsn8hIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcsn8xIUEfC1RegtS_cWXw" x="-3" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LctO8BIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LctO8RIUEfC1RegtS_cWXw" x="1" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LctO8hIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LctO8xIUEfC1RegtS_cWXw" x="1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Lcsn7xIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Lcsn8BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lcsn8RIUEfC1RegtS_cWXw" points="[0, 0, -229, 22]$[229, -22, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LctO9BIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LctO9RIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LctO9hIUEfC1RegtS_cWXw" type="4001" element="_LbpfBRIUEfC1RegtS_cWXw" source="_LcfMgBIUEfC1RegtS_cWXw" target="_Lb7y5RIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LctO-hIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LctO-xIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LctO_BIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LctO_RIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LctO_hIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LctO_xIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LctO9xIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LctO-BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LctO-RIUEfC1RegtS_cWXw" points="[-1, 0, -127, 60]$[126, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcudEBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcudERIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcudEhIUEfC1RegtS_cWXw" type="4001" element="_LbpfChIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_Lb8Z8hIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcudFhIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcudFxIUEfC1RegtS_cWXw" x="1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcudGBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcudGRIUEfC1RegtS_cWXw" x="-1" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcudGhIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcudGxIUEfC1RegtS_cWXw" x="-1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcudExIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcudFBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcudFRIUEfC1RegtS_cWXw" points="[0, 0, 355, 41]$[-355, -41, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcudHBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcudHRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcudHhIUEfC1RegtS_cWXw" type="4001" element="_LbqGEBIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_Lb9BABIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcudIhIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcudIxIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcudJBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcudJRIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcudJhIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcudJxIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcudHxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcudIBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcudIRIUEfC1RegtS_cWXw" points="[-1, 0, 0, 60]$[-1, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcvEIBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcvEIRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcvEIhIUEfC1RegtS_cWXw" type="4001" element="_LbqGFRIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_Lb9oEBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcvEJhIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcvEJxIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcvEKBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcvEKRIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcvEKhIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcvEKxIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcvEIxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcvEJBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcvEJRIUEfC1RegtS_cWXw" points="[-1, 0, -250, 60]$[249, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcvrMBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcvrMRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcvrMhIUEfC1RegtS_cWXw" type="4001" element="_LbqtIBIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_Lb-PIBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcvrNhIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcvrNxIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcvrOBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcvrORIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcvrOhIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcvrOxIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcvrMxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcvrNBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcvrNRIUEfC1RegtS_cWXw" points="[-1, 0, 170, 60]$[-171, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcwSQBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcwSQRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcwSQhIUEfC1RegtS_cWXw" type="4001" element="_LbqtJRIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_Lb-2MhIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcwSRhIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcwSRxIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcwSSBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcwSSRIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcwSShIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcwSSxIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcwSQxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcwSRBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcwSRRIUEfC1RegtS_cWXw" points="[-1, 0, -330, 60]$[329, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lcw5UBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lcw5URIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Lcw5UhIUEfC1RegtS_cWXw" type="4001" element="_LbqtKhIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_LcAEUBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lcw5VhIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcw5VxIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lcw5WBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcw5WRIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lcw5WhIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcw5WxIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Lcw5UxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Lcw5VBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lcw5VRIUEfC1RegtS_cWXw" points="[-1, 0, -80, 60]$[79, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lcw5XBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lcw5XRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Lcw5XhIUEfC1RegtS_cWXw" type="4001" element="_Lbu-kBIUEfC1RegtS_cWXw" source="_LcfMgBIUEfC1RegtS_cWXw" target="_LcArYhIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lcw5YhIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcw5YxIUEfC1RegtS_cWXw" x="-3" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcxgYBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcxgYRIUEfC1RegtS_cWXw" x="3" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcxgYhIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcxgYxIUEfC1RegtS_cWXw" x="3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Lcw5XxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Lcw5YBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lcw5YRIUEfC1RegtS_cWXw" points="[73, 4, -221, -14]$[294, 18, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcxgZBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcxgZRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcxgZhIUEfC1RegtS_cWXw" type="4001" element="_LbvlpBIUEfC1RegtS_cWXw" source="_LcfMgBIUEfC1RegtS_cWXw" target="_LcOGwBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcxgahIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcxgaxIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcxgbBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcxgbRIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcxgbhIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcxgbxIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcxgZxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcxgaBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcxgaRIUEfC1RegtS_cWXw" points="[-1, 0, 38, 60]$[-39, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcyHcBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcyHcRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcyHchIUEfC1RegtS_cWXw" type="4001" element="_LbwMshIUEfC1RegtS_cWXw" source="_LcfMgBIUEfC1RegtS_cWXw" target="_LcRKEBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcyHdhIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcyHdxIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcyHeBIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcyHeRIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcyHehIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcyHexIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcyHcxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcyHdBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcyHdRIUEfC1RegtS_cWXw" points="[-1, 0, 128, 60]$[-129, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcyHfBIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcyHfRIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LcyHfhIUEfC1RegtS_cWXw" type="4001" element="_LbwMtxIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_LcU0cBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LcyugBIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcyugRIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcyughIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcyugxIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LcyuhBIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LcyuhRIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LcyHfxIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LcyHgBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LcyHgRIUEfC1RegtS_cWXw" points="[-1, 0, -165, 60]$[164, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcyuhhIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LcyuhxIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LczVkBIUEfC1RegtS_cWXw" type="4001" element="_LbwzxBIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_LcYe0BIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lcz8oBIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcz8oRIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lc1x0BIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lc1x0RIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lc2Y4BIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lc2Y4RIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LczVkRIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LczVkhIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LczVkxIUEfC1RegtS_cWXw" points="[-1, 0, 85, 60]$[-86, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lc2Y4hIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lc2Y4xIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Lc2Y5BIUEfC1RegtS_cWXw" type="4001" element="_Lbxa0hIUEfC1RegtS_cWXw" source="_LcfzkxIUEfC1RegtS_cWXw" target="_LccJMBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_Lc2Y6BIUEfC1RegtS_cWXw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lc2Y6RIUEfC1RegtS_cWXw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lc2_8BIUEfC1RegtS_cWXw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lc2_8RIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lc2_8hIUEfC1RegtS_cWXw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lc2_8xIUEfC1RegtS_cWXw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Lc2Y5RIUEfC1RegtS_cWXw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Lc2Y5hIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lc2Y5xIUEfC1RegtS_cWXw" points="[-1, 0, 255, 60]$[-256, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lc2_9BIUEfC1RegtS_cWXw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lc2_9RIUEfC1RegtS_cWXw" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Lbxa1xIUEfC1RegtS_cWXw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Lbxa2BIUEfC1RegtS_cWXw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbXyMBIUEfC1RegtS_cWXw" name="cancel_book_Course" incomingEdges="_LboQ4BIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.0"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbZAUBIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbZnYRIUEfC1RegtS_cWXw" name="book_Course" incomingEdges="_Lbo38hIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.1"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.1"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbZnYhIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbaOcRIUEfC1RegtS_cWXw" name="login" incomingEdges="_Lbo39xIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.2"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.2"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbaOchIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbaOdBIUEfC1RegtS_cWXw" name="manageCourseRoom" incomingEdges="_LbpfABIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.3"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbaOdRIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Lba1gRIUEfC1RegtS_cWXw" name="manageCourseRecord" incomingEdges="_LbpfBRIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.4"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.0/@interface.4"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_Lba1ghIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Lba1hBIUEfC1RegtS_cWXw" name="finish_Course" incomingEdges="_LbpfChIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_Lba1hRIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbbckRIUEfC1RegtS_cWXw" name="create_Course" incomingEdges="_LbqGEBIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.1"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.1"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbbckhIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbbclBIUEfC1RegtS_cWXw" name="update_schedule" incomingEdges="_LbqGFRIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.2"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.2"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbcDoBIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbcDohIUEfC1RegtS_cWXw" name="manageCourse" incomingEdges="_LbqtIBIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.3"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.3"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbcDoxIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbcqsRIUEfC1RegtS_cWXw" name="manageCourseNotification" incomingEdges="_LbqtJRIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.4"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.4"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbcqshIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbcqtBIUEfC1RegtS_cWXw" name="manageCoursePayment" incomingEdges="_LbqtKhIUEfC1RegtS_cWXw" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.5"/>
+      <semanticElements xmi:type="msModel:Provided" href="GymSystem.msModel#//@microservice.1/@interface.5"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_LbcqtRIUEfC1RegtS_cWXw" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbdRwBIUEfC1RegtS_cWXw" incomingEdges="_Lbu-kBIUEfC1RegtS_cWXw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.0/@interface.5"/>
+      <semanticElements xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.0/@interface.5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Lbd40BIUEfC1RegtS_cWXw" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Lbd40hIUEfC1RegtS_cWXw" incomingEdges="_LbvlpBIUEfC1RegtS_cWXw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.0/@interface.6"/>
+      <semanticElements xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.0/@interface.6"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Lbd40xIUEfC1RegtS_cWXw" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Lbef4RIUEfC1RegtS_cWXw" incomingEdges="_LbwMshIUEfC1RegtS_cWXw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.0/@interface.7"/>
+      <semanticElements xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.0/@interface.7"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Lbef4hIUEfC1RegtS_cWXw" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Lbef5BIUEfC1RegtS_cWXw" incomingEdges="_LbwMtxIUEfC1RegtS_cWXw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.1/@interface.6"/>
+      <semanticElements xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.1/@interface.6"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Lbef5RIUEfC1RegtS_cWXw" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbfG8RIUEfC1RegtS_cWXw" incomingEdges="_LbwzxBIUEfC1RegtS_cWXw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.1/@interface.7"/>
+      <semanticElements xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.1/@interface.7"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_LbfG8hIUEfC1RegtS_cWXw" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_LbfG9BIUEfC1RegtS_cWXw" incomingEdges="_Lbxa0hIUEfC1RegtS_cWXw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.1/@interface.8"/>
+      <semanticElements xmi:type="msModel:Required" href="GymSystem.msModel#//@microservice.1/@interface.8"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_LbfG9RIUEfC1RegtS_cWXw" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LbfG9xIUEfC1RegtS_cWXw" name="MemberService" outgoingEdges="_LboQ4BIUEfC1RegtS_cWXw _Lbo38hIUEfC1RegtS_cWXw _Lbo39xIUEfC1RegtS_cWXw _LbpfABIUEfC1RegtS_cWXw _LbpfBRIUEfC1RegtS_cWXw _Lbu-kBIUEfC1RegtS_cWXw _LbvlpBIUEfC1RegtS_cWXw _LbwMshIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <semanticElements xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LbfG-BIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LbfuARIUEfC1RegtS_cWXw" name="TrainerService" outgoingEdges="_LbpfChIUEfC1RegtS_cWXw _LbqGEBIUEfC1RegtS_cWXw _LbqGFRIUEfC1RegtS_cWXw _LbqtIBIUEfC1RegtS_cWXw _LbqtJRIUEfC1RegtS_cWXw _LbqtKhIUEfC1RegtS_cWXw _LbwMtxIUEfC1RegtS_cWXw _LbwzxBIUEfC1RegtS_cWXw _Lbxa0hIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <semanticElements xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LbfuAhIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LboQ4BIUEfC1RegtS_cWXw" sourceNode="_LbfG9xIUEfC1RegtS_cWXw" targetNode="_LbXyMBIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LboQ4RIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LboQ4hIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Lbo38hIUEfC1RegtS_cWXw" sourceNode="_LbfG9xIUEfC1RegtS_cWXw" targetNode="_LbZnYRIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Lbo38xIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Lbo39BIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Lbo39xIUEfC1RegtS_cWXw" sourceNode="_LbfG9xIUEfC1RegtS_cWXw" targetNode="_LbaOcRIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Lbo3-BIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Lbo3-RIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbpfABIUEfC1RegtS_cWXw" sourceNode="_LbfG9xIUEfC1RegtS_cWXw" targetNode="_LbaOdBIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbpfARIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbpfAhIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbpfBRIUEfC1RegtS_cWXw" sourceNode="_LbfG9xIUEfC1RegtS_cWXw" targetNode="_Lba1gRIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbpfBhIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbpfBxIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbpfChIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_Lba1hBIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbpfCxIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbpfDBIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbqGEBIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_LbbckRIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbqGERIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbqGEhIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbqGFRIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_LbbclBIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbqGFhIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbqGFxIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbqtIBIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_LbcDohIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbqtIRIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbqtIhIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbqtJRIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_LbcqsRIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbqtJhIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbqtJxIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbqtKhIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_LbcqtBIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbrUMBIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbrUMRIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Lbu-kBIUEfC1RegtS_cWXw" sourceNode="_LbfG9xIUEfC1RegtS_cWXw" targetNode="_LbdRwBIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbvloBIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbvloRIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbvlpBIUEfC1RegtS_cWXw" sourceNode="_LbfG9xIUEfC1RegtS_cWXw" targetNode="_Lbd40hIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbvlpRIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbvlphIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbwMshIUEfC1RegtS_cWXw" sourceNode="_LbfG9xIUEfC1RegtS_cWXw" targetNode="_Lbef4RIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbwMsxIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbwMtBIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbwMtxIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_Lbef5BIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbwzwBIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbwzwRIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LbwzxBIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_LbfG8RIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LbwzxRIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LbwzxhIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Lbxa0hIUEfC1RegtS_cWXw" sourceNode="_LbfuARIUEfC1RegtS_cWXw" targetNode="_LbfG9BIUEfC1RegtS_cWXw">
+      <target xmi:type="msModel:MicroService" href="GymSystem.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Lbxa0xIUEfC1RegtS_cWXw" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Lbxa1BIUEfC1RegtS_cWXw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_LbTgwRIUEfC1RegtS_cWXw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:MicroServiceModel" href="GymSystem.msModel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_LtMiABIUEfC1RegtS_cWXw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LtNJEBIUEfC1RegtS_cWXw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_LtNJERIUEfC1RegtS_cWXw" type="Sirius" element="_LtMiABIUEfC1RegtS_cWXw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_LtZ9YBIUEfC1RegtS_cWXw" type="2003" element="_LtO-QBIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LtZ9YxIUEfC1RegtS_cWXw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_LtZ9ZBIUEfC1RegtS_cWXw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_LtbLhBIUEfC1RegtS_cWXw" type="3010" element="_LtQzcBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LtbLhRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LtbLhhIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LtbykBIUEfC1RegtS_cWXw" type="3010" element="_LtTPsBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LtbykRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LtbykhIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LtbykxIUEfC1RegtS_cWXw" type="3010" element="_LtUd0BIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LtbylBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LtbylRIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LtdnwBIUEfC1RegtS_cWXw" type="3010" element="_LtVE4BIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LtdnwRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LtdnwhIUEfC1RegtS_cWXw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LtZ9ZRIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LtZ9ZhIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LtZ9YRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LtZ9YhIUEfC1RegtS_cWXw" width="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LtakcBIUEfC1RegtS_cWXw" type="2003" element="_LtPlUhIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LtakcxIUEfC1RegtS_cWXw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_LtakdBIUEfC1RegtS_cWXw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_LteO0BIUEfC1RegtS_cWXw" type="3010" element="_LtVE4hIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LteO0RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LteO0hIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LteO0xIUEfC1RegtS_cWXw" type="3010" element="_LtVr8RIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LteO1BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LteO1RIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LteO1hIUEfC1RegtS_cWXw" type="3010" element="_LtWTABIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LteO1xIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LteO2BIUEfC1RegtS_cWXw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LtakdRIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LtakdhIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LtakcRIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LtakchIUEfC1RegtS_cWXw" width="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LtakdxIUEfC1RegtS_cWXw" type="2003" element="_LtQMYRIUEfC1RegtS_cWXw">
+          <children xmi:type="notation:Node" xmi:id="_LtbLgBIUEfC1RegtS_cWXw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_LtbLgRIUEfC1RegtS_cWXw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_Lte14BIUEfC1RegtS_cWXw" type="3010" element="_LtW6EBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Lte14RIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Lte14hIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Lte14xIUEfC1RegtS_cWXw" type="3010" element="_LtXhIBIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Lte15BIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Lte15RIUEfC1RegtS_cWXw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Lte15hIUEfC1RegtS_cWXw" type="3010" element="_LtXhIhIUEfC1RegtS_cWXw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Lte15xIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Lte16BIUEfC1RegtS_cWXw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LtbLghIUEfC1RegtS_cWXw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LtbLgxIUEfC1RegtS_cWXw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LtakeBIUEfC1RegtS_cWXw" fontName="Microsoft YaHei UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LtakeRIUEfC1RegtS_cWXw" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_LtNJEhIUEfC1RegtS_cWXw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LtYvQBIUEfC1RegtS_cWXw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_LtYvQRIUEfC1RegtS_cWXw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_LtO-QBIUEfC1RegtS_cWXw" name="CourseRecord" width="10">
+      <target xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LtPlUBIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtQzcBIUEfC1RegtS_cWXw" name="Id : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtSooBIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtTPsBIUEfC1RegtS_cWXw" name="UserId : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtT2wBIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtUd0BIUEfC1RegtS_cWXw" name="CourseId : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtUd0RIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtVE4BIUEfC1RegtS_cWXw" name="Status : Integer">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.3"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.3"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtVE4RIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_LtPlUhIUEfC1RegtS_cWXw" name="FrontDesk" width="10">
+      <target xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1"/>
+      <semanticElements xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LtPlUxIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtVE4hIUEfC1RegtS_cWXw" name="Id : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtVr8BIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtVr8RIUEfC1RegtS_cWXw" name="Phone : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtVr8hIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtWTABIUEfC1RegtS_cWXw" name="Password : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.1/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtWTARIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_LtQMYRIUEfC1RegtS_cWXw" name="CourseRoom" width="10">
+      <target xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2"/>
+      <semanticElements xmi:type="msModel:Entity" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LtQMYhIUEfC1RegtS_cWXw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtW6EBIUEfC1RegtS_cWXw" name="Id : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtW6ERIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtXhIBIUEfC1RegtS_cWXw" name="Location : String">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtXhIRIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LtXhIhIUEfC1RegtS_cWXw" name="Capacity : Integer">
+        <target xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="GymSystem.msModel#//@microservice.0/@domainmodel.0/@entity.2/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LtXhIxIUEfC1RegtS_cWXw" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_LtMiARIUEfC1RegtS_cWXw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="GymSystem.msModel#//@microservice.0/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
