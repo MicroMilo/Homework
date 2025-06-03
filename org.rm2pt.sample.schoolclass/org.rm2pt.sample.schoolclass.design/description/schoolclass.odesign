@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="schoolclass" version="12.0.0.2017041100">
+  <ownedViewpoints name="persions" modelFileExtension="schoolclass">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Persons diagram" domainClass="schoolclass::Person" enablePopupBars="true">
+      <metamodel href="../../org.rm2pt.sample.schoolclass.metamodel/model/schoolclass.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="MentorNode" domainClass="schoolclass::Mentor">
+          <style xsi:type="style:WorkspaceImageDescription" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.rm2pt.sample.schoolclass.design/icons/man.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="MenteeNode" domainClass="schoolclass::Mentee">
+          <style xsi:type="style:WorkspaceImageDescription" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.rm2pt.sample.schoolclass.design/icons/woman.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="supervisingEdge" sourceMapping="//@ownedViewpoints[name='persions']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='MentorNode'] //@ownedViewpoints[name='persions']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='MenteeNode']" targetMapping="//@ownedViewpoints[name='persions']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='MentorNode']" targetFinderExpression="feature:supervising">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='chocolate']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="supervisedEdge" sourceMapping="//@ownedViewpoints[name='persions']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='MentorNode'] //@ownedViewpoints[name='persions']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='MenteeNode']" targetMapping="//@ownedViewpoints[name='persions']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='MenteeNode']" targetFinderExpression="feature:supervised">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createMentee" label="Mentee" nodeMappings="//@ownedViewpoints[name='persions']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='MenteeNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="schoolclass::Mentee" referenceName="members">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'mentee2'"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.rm2pt.sample.schoolclass.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/org.rm2pt.sample.schoolclass.metamodel/src-gen"
+    creationIcons="false" editDirectory="/org.rm2pt.sample.schoolclass.metamodel.edit/src-gen"
+    editorDirectory="/org.rm2pt.sample.schoolclass.metamodel.editor/src-gen" modelPluginID="org.rm2pt.sample.schoolclass.metamodel"
+    modelName="Schoolclass" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>schoolclass.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Schoolclass" basePackage="org.rm2pt.sample.schoolclass.metamodel"
+      disposableProviderFactory="true" ecorePackage="schoolclass.ecore#/">
+    <genClasses ecoreClass="schoolclass.ecore#//SchoolClass">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schoolclass.ecore#//SchoolClass/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schoolclass.ecore#//SchoolClass/members"/>
+    </genClasses>
+    <genClasses ecoreClass="schoolclass.ecore#//Person">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schoolclass.ecore#//Person/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schoolclass.ecore#//Person/Student"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schoolclass.ecore#//Person/Teacher"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schoolclass.ecore#//Person/supervising"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schoolclass.ecore#//Person/supervised"/>
+    </genClasses>
+    <genClasses ecoreClass="schoolclass.ecore#//Mentor"/>
+    <genClasses ecoreClass="schoolclass.ecore#//Mentee"/>
+  </genPackages>
+</genmodel:GenModel>

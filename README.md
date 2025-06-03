@@ -1043,3 +1043,53 @@ DomainModel GymSystem {
 
 这种微服务划分保持了业务功能的完整性，同时实现了服务的松耦合，便于团队独立开发和部署各个服务。
 ```
+
+# 实验三：特定领域建模
+
+依照视频进行环境配置
+
+### 任务1：Eclipse EMF元模型建模
+
+利用 Eclipse EMF 定义模型
+
+- 建立高中班级模型，一个班级最多 50 个学生，最多 7 个老师
+
+![alt text](img/lab3/image-8.png)
+
+创建人物节点
+
+![alt text](img/lab3/image-4.png)
+
+### 任务2：Eclipse Sirius图形语言建模
+
+建立任务节点之间的联系
+
+- 师生关系
+
+![alt text](img/lab3/image-5.png)
+
+自动化创建对象
+
+![alt text](img/lab3/image-9.png)
+
+### 任务3：Eclipse Xtext文本语言建模
+
+DSL 自动创建
+
+![alt text](img/lab3/image-6.png)
+
+![alt text](img/lab3/image-10.png)
+
+### 任务4：插件构建及测试
+
+执行 Maven Install
+
+![alt text](img/lab3/image-7.png)
+
+可视化演示
+
+![alt text](img/lab3/image-12.png)
+
+DSL 测试代码
+
+![alt text](img/lab3/image-13.png)

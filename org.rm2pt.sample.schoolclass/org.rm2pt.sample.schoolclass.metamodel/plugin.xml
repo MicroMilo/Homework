@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated schoolclass -->
+      <package
+            uri="http://www.rm2pt.com/schoolclass"
+            class="org.rm2pt.sample.schoolclass.metamodel.schoolclass.SchoolclassPackage"
+            genModel="model/schoolclass.genmodel"/>
+   </extension>
+
+</plugin>

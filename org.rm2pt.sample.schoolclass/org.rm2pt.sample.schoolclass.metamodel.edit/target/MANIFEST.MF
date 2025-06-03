@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.rm2pt.sample.schoolclass.metamodel.edit;singlet
+ on:=true
+Automatic-Module-Name: org.rm2pt.sample.schoolclass.metamodel.edit
+Bundle-Version: 1.0.0.202506030401
+Bundle-ClassPath: .
+Bundle-Activator: org.rm2pt.sample.schoolclass.metamodel.schoolclass.pro
+ vider.SchoolclassEditPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.rm2pt.sample.schoolclass.metamodel.schoolclass.provi
+ der
+Require-Bundle: org.eclipse.core.runtime,org.rm2pt.sample.schoolclass.me
+ tamodel;visibility:=reexport,org.eclipse.emf.edit;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+

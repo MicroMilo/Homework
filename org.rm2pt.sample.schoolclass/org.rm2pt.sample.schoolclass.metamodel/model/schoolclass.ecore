@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="schoolclass" nsURI="http://www.rm2pt.com/schoolclass" nsPrefix="schoolclass">
+  <eClassifiers xsi:type="ecore:EClass" name="SchoolClass">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="members" upperBound="-1"
+        eType="#//Person" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Person" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Student" upperBound="50"
+        eType="#//Person" eOpposite="#//Person/Teacher"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Teacher" upperBound="7"
+        eType="#//Person" eOpposite="#//Person/Student"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="supervising" upperBound="-1"
+        eType="#//Mentor" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="supervised" upperBound="-1"
+        eType="#//Mentee" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Mentor" eSuperTypes="#//Person"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Mentee" eSuperTypes="#//Person"/>
+</ecore:EPackage>

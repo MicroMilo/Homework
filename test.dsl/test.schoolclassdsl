@@ -1,0 +1,10 @@
+SchoolClass "mySchool" {
+	members {
+		Mentor "John" {
+			Student ("Anna")
+		},
+		Mentee "Anna" {
+			Teacher ("John")
+		}
+	}
+}

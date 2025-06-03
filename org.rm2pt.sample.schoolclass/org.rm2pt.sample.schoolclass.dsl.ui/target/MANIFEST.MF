@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.rm2pt.sample.schoolclass.dsl.ui
+Bundle-ManifestVersion: 2
+Bundle-Name: org.rm2pt.sample.schoolclass.dsl.ui
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.202506030401
+Bundle-SymbolicName: org.rm2pt.sample.schoolclass.dsl.ui; singleton:=tru
+ e
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.rm2pt.sample.schoolclass.metamodel,org.rm2pt.sample.
+ schoolclass.dsl,org.rm2pt.sample.schoolclass.dsl.ide,org.eclipse.xtext.
+ ui,org.eclipse.xtext.ui.shared,org.eclipse.xtext.ui.codetemplates.ui,or
+ g.eclipse.ui.editors;bundle-version="3.5.0",org.eclipse.ui.ide;bundle-v
+ ersion="3.5.0",org.eclipse.ui,org.eclipse.compare,org.eclipse.xtext.bui
+ lder
+Import-Package: org.apache.log4j
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.rm2pt.sample.schoolclass.ui.contentassist,org.rm2pt.
+ sample.schoolclass.dsl.ui.internal,org.rm2pt.sample.schoolclass.ui.quic
+ kfix
+Bundle-Activator: org.rm2pt.sample.schoolclass.dsl.ui.internal.DslActiva
+ tor
+
