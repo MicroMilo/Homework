@@ -1093,3 +1093,258 @@ DSL 自动创建
 DSL 测试代码
 
 ![alt text](img/lab3/image-13.png)
+
+# 实验四：智能模型驱动
+
+> Agent 文件夹：会议室预约系统
+
+设计用于Agent输出的 DSL，可以使用 json 或其他形式，需要包含现有需求模型完整内容，包括用例图、系统顺序图、概念类图以及 OCL 合约。
+
+### 任务 1：基于纯 Restful API 的智能化需求建模
+
+> 选定学校会议室预约管理系统进行自动化建模，用 Python 脚本进行 Restful 风格 API 调用，调用截图如下
+
+![alt text](img/lab4/image.png)
+![alt text](img/lab4/image-1.png)
+![alt text](img/lab4/image-2.png)
+
+### 任务 2：基于 OpenAI SDK 的智能化需求建模
+
+> 选定学校会议室预约管理系统进行自动化建模，任务 1 类似，使用 OpenAI SDK 进行建模
+
+![alt text](img/lab4/image-3.png)
+![alt text](img/lab4/image-4.png)
+![alt text](img/lab4/image-5.png)
+
+### 任务 3：基于 LLM Agent 的智能化需求建模
+
+使用微软的 AutoGen 框架，模拟软件开发团队中的需求分析师和架构评审员的角色。通过它们之间的自动对话和迭代修正，最终产出一份高质量、结构化的需求文档
+
+##### DSL 定义
+
+使用 dataclasses 和 Enum 定义了一套严格的数据格式
+
+- ElementType: 定义了模型元素的类型，如用例图、类图等
+
+- DiagramElement: 定义了单个模型元素的结构（类型、名称、内容）
+
+- DomainModel: 将所有DiagramElement聚合起来，形成一个完整的领域模型
+
+- ModelingOutput: 这是分析师代理最终输出的完整结构，包含了领域模型和一个总结
+
+- EvaluationFeedback: 这是评审员代理输出反馈的固定格式（分数、反馈意见）
+
+##### Agent 设置
+
+设置了如下三个 Agent：
+
+- DomainModeler (需求分析师)
+
+	- 任务: 接收需求，生成包含多种图表（用例、顺序图等）的 ModelingOutput JSON
+
+> Prompt
+
+````
+你是一位资深的软件需求分析师，精通领域建模。你的任务是根据以下背景信息，为**学校会议室预订管理系统**建立详细的需求模型。
+
+**背景信息：**
+* 系统面向用户：学生、教师、管理员
+* 会议室资源：多个会议室，每个会议室有容量、设备（如投影仪、麦克风）等属性
+* 预订流程：用户可以查询可用会议室，提交预订申请，管理员审批申请
+* 预订规则：会议室预订有时间限制、时长限制、冲突检测等规则
+* 系统功能：
+    * 用户注册/登录
+    * 会议室信息展示（包括容量、设备、位置等）
+    * 会议室可用性查询（按日期、时间、容量等条件）
+    * 预订申请提交（包括会议主题、时间、参会人数等信息）
+    * 预订申请审批（管理员功能）
+    * 预订信息管理（查看、修改、取消预订）
+    * 系统权限管理（不同用户角色有不同权限）
+    * 会议室使用情况统计
+
+**输出要求：**
+
+请严格按照以下的JSON格式输出整个需求模型。你的输出应该是一个JSON对象，包含两个顶级键：`domain_model` 和 `summary`。
+
+`domain_model` 键的值应是一个JSON对象，其中包含 `name` 和 `elements`。
+`elements` 键的值应是一个JSON数组，每个元素表示一个 `DiagramElement`。
+
+`DiagramElement` 结构如下：
+```json
+{
+  "type": "use_case" | "sequence_diagram" | "class_diagram" | "ocl_contract",
+  "name": "元素的具体名称，如'用户注册用例'",
+  "content": "对应元素的DSL表示，例如：\\n- 用例图的JSON结构\\n- 系统顺序图的JSON结构\\n- 概念类图的JSON结构\\n- OCL合约的JSON结构"
+}
+```
+
+请为以下每种类型的元素都生成至少两个例子，并将其内容（`content` 字段）严格按照其各自的DSL格式表示：
+
+1.  **用例图 (ElementType.USE_CASE):**
+    ```json
+    {
+      "系统名称": "学校会议室预订管理系统",
+      "用例": [
+        {
+          "名称": "用户注册",
+          "参与者": ["学生", "教师", "管理员"],
+          "描述": "允许新用户在系统中创建账户。",
+          "包含": [],
+          "扩展": []
+        },
+        {
+          "名称": "查询会议室可用性",
+          "参与者": ["学生", "教师", "管理员"],
+          "描述": "用户可以根据日期、时间、容量和设备等条件查找可用的会议室。",
+          "包含": [],
+          "扩展": []
+        }
+      ],
+      "参与者": [
+        {
+          "名称": "学生",
+          "用例": ["用户注册", "查询会议室可用性", "提交预订申请", "查看预订信息", "取消预订"]
+        },
+        {
+          "名称": "教师",
+          "用例": ["用户注册", "查询会议室可用性", "提交预订申请", "查看预订信息", "取消预订"]
+        },
+        {
+          "名称": "管理员",
+          "用例": ["用户注册", "查询会议室可用性", "审批预订申请", "管理会议室信息", "查看系统统计"]
+        }
+      ]
+    }
+    ```
+
+2.  **系统顺序图 (ElementType.SEQUENCE_DIAGRAM):**
+    ```json
+    {
+      "名称": "提交预订申请",
+      "参与者": "用户",
+      "用例": "提交预订申请",
+      "消息": [
+        {
+          "发送者": "用户界面",
+          "接收者": "系统",
+          "消息名称": "submitBookingRequest",
+          "参数": ["会议主题", "会议室ID", "开始时间", "结束时间", "参会人数"]
+        },
+        {
+          "发送者": "系统",
+          "接收者": "会议室资源管理模块",
+          "消息名称": "checkAvailability",
+          "参数": ["会议室ID", "开始时间", "结束时间"]
+        }
+      ]
+    }
+    ```
+
+3.  **概念类图 (ElementType.CLASS_DIAGRAM):**
+    ```json
+    {
+      "系统名称": "学校会议室预订管理系统",
+      "类": [
+        {
+          "名称": "用户",
+          "属性": ["userId: String", "username: String", "passwordHash: String", "role: UserRole"],
+          "关联": ["预订"]
+        },
+        {
+          "名称": "会议室",
+          "属性": ["roomId: String", "name: String", "capacity: Integer", "location: String", "equipment: List<String>"],
+          "关联": ["预订"]
+        }
+      ],
+      "关系": [
+        {
+          "类型": "关联",
+          "类1": "用户",
+          "类2": "预订",
+          "描述": "一个用户可以有多个预订",
+          "多重度1": "1",
+          "多重度2": "*"
+        },
+        {
+          "类型": "关联",
+          "类1": "会议室",
+          "类2": "预订",
+          "描述": "一个会议室可以有多个预订",
+          "多重度1": "1",
+          "多重度2": "*"
+        }
+      ]
+    }
+    ```
+
+4.  **OCL合约 (ElementType.OCL_CONTRACT):**
+    ```json
+    {
+      "服务": "预订服务",
+      "操作": "提交预订申请(meetingRoomId: String, startTime: DateTime, endTime: DateTime)",
+      "前置条件": "context MeetingRoom::submitBooking(meetingRoomId: String, startTime: DateTime, endTime: DateTime)\\npre: MeetingRoom.allInstances()->exists(r | r.roomId = meetingRoomId) -- 会议室存在\\npre: self.isLoggedIn() -- 用户已登录\\npre: not Booking.allInstances()->exists(b | b.meetingRoom.roomId = meetingRoomId and (b.startTime < endTime and b.endTime > startTime)) -- 无时间冲突",
+      "后置条件": "post: Booking.allInstances()->exists(b | b.meetingRoom.roomId = meetingRoomId and b.startTime = startTime and b.endTime = endTime and b.requester = self) -- 成功创建预订",
+      "不变式": "context MeetingRoom\\ninv: self.capacity > 0 -- 容量必须大于零"
+    }
+    ```
+
+请确保输出的JSON结构正确，且 `content` 字段的内部JSON也严格符合其各自的DSL格式，内容完整、准确地反映了上述背景信息。并且整个输出必须是单个JSON对象，可以直接被 `json.loads()` 解析为 `ModelingOutput` 结构。
+````
+
+- ModelEvaluatorAssistant (架构评审员)
+
+	- 任务: 接收 DomainModeler 生成的JSON，根据标准进行评估，并输出一份 EvaluationFeedback JSON。它的一个特殊指令是“第一次尝试永远不要给出‘通过’”，强制启动迭代修正流程
+
+````
+你是一位高度批判的软件架构评审员。你的任务是评估由另一个代理生成的领域模型。
+
+根据以下标准评估模型：
+
+1.  **完整性：** 模型是否涵盖了系统的所有基本方面？
+2.  **一致性：** 模型的不同元素是否彼此一致？
+3.  **正确性：** 模型是否准确地表示了系统的功能和数据？
+4.  **清晰度：** 模型是否易于理解和遵循？
+5.  **符合DSL：** 输出是否按照定义的DSL正确格式化？特别是所有 `content` 字段中的嵌套JSON是否有效且符合其对应的DSL定义（用例、顺序图、类图、OCL合约的JSON结构）？
+
+提供“通过”、“需要改进”或“失败”的分数。你的输出必须是只包含 `score` 和 `feedback` 字段的JSON对象。
+
+**示例输出：**
+```json
+{
+  "score": "needs_improvement",
+  "feedback": "OCL合约的语法不正确，需要修正。用例描述不够详细。"
+}
+```
+
+第一次尝试永远不要给出“通过”。
+````
+
+- UserProxyAgent (用户代理/流程协调员)
+
+	- 任务:
+
+		- 向 DomainModeler 发出最初的指令
+		- 将 DomainModeler 的产出物传递给 ModelEvaluatorAssistant
+		- 将 ModelEvaluatorAssistant 的反馈意见再传回给 DomainModeler，让其进行修改
+
+##### 实验效果
+
+> 整体效果，所有内容见 `autogen_workflow.log`
+
+![alt text](img/lab4/image-6.png)
+
+> 用例示例
+
+![alt text](img/lab4/image-9.png)
+
+> 顺序图示例
+
+![alt text](img/lab4/image-8.png)
+
+> 类图示例
+
+![alt text](img/lab4/image-10.png)
+
+> OCL 示例
+
+![alt text](img/lab4/image-11.png)

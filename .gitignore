@@ -1,1 +1,4 @@
 .metadata/
+Agent/**/venv/
+Agent/**/config.py
+**/__pycache__/
